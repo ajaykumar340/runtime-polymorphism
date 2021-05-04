@@ -1,0 +1,27 @@
+interface Ajaykumar
+{
+    void cook();
+public class A implements Ajaykumar
+{
+    public void cook()
+    {
+        System.out.println("gooo hands on guys........");
+    }
+    }
+public class B implements Ajaykumar
+{
+    public void cook()
+    {
+        System.out.println("good happy moments guys........");
+    }
+    }
+    public static void main(String []args)
+    {
+        Ajaykumar ayk=new A();
+        ayk.cook();
+        Ajaykumar ay=new B();
+        ay.cook();
+        //ayk=A;
+        //ayk.cook();
+}
+}
